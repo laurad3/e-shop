@@ -1,5 +1,7 @@
 <?php
-	session_start();
+	// ini_set('display_errors', 1);
+	// error_reporting(E_ALL);
+
 	require 'db/db.php';
 ?>
 <!DOCTYPE html>
@@ -19,7 +21,7 @@
 			include_once 'include/header.php';
 		 ?>
 
-		 <a href="db/admin_logout.php"><div class="back">< Home</div></a>
+		 <a href="index.php"><div class="back">< Home</div></a>
 
 		 <?php echo $_GET['orderSuccess']; ?>
 
